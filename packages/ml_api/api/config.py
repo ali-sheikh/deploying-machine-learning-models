@@ -13,6 +13,7 @@ LOG_DIR = PACKAGE_ROOT / 'logs'
 LOG_DIR.mkdir(exist_ok=True)
 LOG_FILE = LOG_DIR / 'ml_api.log'
 
+#some other test of CI
 
 def get_console_handler():
     console_handler = logging.StreamHandler(sys.stdout)

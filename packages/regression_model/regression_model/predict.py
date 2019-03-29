@@ -42,3 +42,5 @@ def make_prediction(*, input_data: t.Union[pd.DataFrame, dict],
         f'Predictions: {results}')
 
     return results
+
+    #test
